@@ -1,0 +1,28 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, main, footer {
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgb(66, 64, 61);
+    align-items: center;
+    color: white;
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+aside {
+    background-color: coral;
+}
+.main {
+    display: grid;
+    max-width: 70vw;
+    margin: auto;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+}
+.section {
+    background-color: aqua;
+}
